@@ -1,12 +1,12 @@
 import React from "react";
+import Books from "./components/Books";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <header className="flex justify-center text-4xl bg-green-500">
-        {" "}
-        <h1>Google Books Api</h1>
-      </header>
+      <Nav />
+      <Books />
     </div>
   );
 }
